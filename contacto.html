@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Contacto</title>
+	<link rel="stylesheet" href="css/cont.css">
+</head>
+<body>
+	<div class="menu">
+		<table class="tmenu">
+			<tr>
+				<th><a href="https://www.colegiovalledelmiro.es/el-centro/"><img src="img/LogoVDM.png" width="160px" height="90px"></a></th>
+				<th colspan="2" class="titulomenu">VALLE DEL MIRO</th>
+				<th><a href="index.html"><div class="botmenu"><h2 class="textbotmenu">Inicio</h2></div></a></th>
+				<th><a href="DAW.html"><div class="botmenu"><h2 class="textbotmenu">DAW</h2></div></a></th>
+				<th><a href="quien.html."><div class="botmenu"><h2 class="textbotmenu">Quienes Somos</h2></div></a></th>
+				<th><a href="contacto.html"><div class="botmenu"><h2 class="estas">Contacto</h2></div></a></th>
+			</tr>
+		</table>
+		<div class="linea"></div>
+	</div>
+	<br>
+	<br>
+	<!-------------------->
+	<div class="caja">
+		<h2 class="titulomenu">Contacto</h2>
+		<!--formulario-->
+		<br>
+		<h3>Cuentanos un poco sobre ti</h3>
+		<form>
+			<fieldset>
+				<table class="tform">
+					<tr>
+						<th class="izq"><label for="nom">Nombre:</label></th>
+						<th class="der"><input type="text" id="nom" name="nom"></th>
+					</tr>
+					<tr>
+						<th class="izq"><label for="ape">Apellidos:</label></th>
+						<th class="der"><input type="text" id="ape" name="ape"></th>
+					</tr>
+					<tr>
+						<th class="izq"><label for="ed">Edad:</label></th>
+						<th class="der"><input type="number" id="ed" name="ed"></th>
+					</tr>
+				</table>
+			</fieldset>
+			<br>
+			<h3>Información de contacto</h3>
+			<fieldset>
+				<table class="tform">
+					<tr>
+						<th class="izq"><label for="cor">Correo:</label></th>
+						<th class="der"><input type="text" id="cor" name="cor"></th>
+					</tr>
+					<tr>
+						<th class="izq"><label for="tel">Teléfono:</label></th>
+						<th class="der"><input type="text" id="tel" name="tel"></th>
+					</tr>
+					<tr>
+						<th class="izq"><label for="dom">Domicilio:</label></th>
+						<th class="der"><input type="text" id="dom" name="dom"></th>
+					</tr>
+				</table>
+			</fieldset>
+			<br>
+			<h3>¿Qué te atrae?</h3>
+			<fieldset>
+				<table class="tform">
+					<tr>
+						<th class="izq"><label for="cur">¿Qué quieres cursar?</label></th>
+						<th class="der"><select id="cur" name="cur"><br>
+							  <option value="DAW">DAW</option>
+							  <option value="DAM">DAM</option>
+							  <option value="SMR">SMR</option>
+							</select>
+						</th>
+					</tr>
+				</table>
+
+			<label for="info">¿Algo que añadir?</label><br>
+			<textarea name="info" rows="10" cols="30"></textarea>
+			</fieldset><br><br>
+			<input type="submit" value="Enviar"> <input type="reset" value="Borrar">
+
+		</form>
+	</div>
+</body>
+</html>
